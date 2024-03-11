@@ -27,8 +27,9 @@ class Usuario {
     
     if (ValidadorUsuarios.validar(username, password)) {
       alert("¡Inicio de sesión exitoso!");
-     
-      return true;
+      window.location.href = "html/calculadora.html";
+
+      return false;
     } else {
       alert("Usuario o contraseña incorrectos");
       return false; 
