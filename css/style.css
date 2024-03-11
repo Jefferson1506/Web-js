@@ -17,12 +17,13 @@ body {
   height: 50vh;
   max-width: 400px;
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.296);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.484);
+  backdrop-filter: blur(20px); 
   padding: 30px;
   box-sizing: border-box;
   text-align: center;
-  backdrop-filter: blur(10px); 
+ 
 }
 
 
@@ -49,6 +50,6 @@ body {
 }
 
 .login-container input[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #f6f3ab;
 }
 

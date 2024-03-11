@@ -7,7 +7,7 @@ class Usuario {
 
   class ValidadorUsuarios {
    static  usuarios = [
-      new Usuario("adm", "adm123"),
+      new Usuario("adm", "adm"),
       new Usuario("user", "user123")
     ];
 
