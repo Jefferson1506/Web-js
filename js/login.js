@@ -7,7 +7,7 @@ class Usuario {
 
   class ValidadorUsuarios {
    static  usuarios = [
-      new Usuario("admin", "admin123"),
+      new Usuario("adm", "adm123"),
       new Usuario("user", "user123")
     ];
 
@@ -27,6 +27,7 @@ class Usuario {
     
     if (ValidadorUsuarios.validar(username, password)) {
       alert("¡Inicio de sesión exitoso!");
+     
       return true;
     } else {
       alert("Usuario o contraseña incorrectos");

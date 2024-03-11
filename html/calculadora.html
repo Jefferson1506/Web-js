@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Áreas</title>
+   <link rel="stylesheet" href="css\style_calculadora.css.css">
+   <script src="js\operaciones.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Áreas</h1>
+        <form id="form">
+            <label for="figura">Seleccione una figura:</label>
+            <select name="figura" id="figura">
+                <option value="circulo">Círculo</option>
+                <option value="rectangulo">Rectángulo</option>
+                <option value="triangulo">Triángulo</option>
+            </select>
+            <div id="circulo">
+                <label for="radio">Radio:</label>
+                <input type="number" id="radio" name="radio" placeholder="Ingrese el radio">
+            </div>
+            <div id="rectangulo" style="display:none;">
+                <label for="base">Base:</label>
+                <input type="number" id="base" name="base" placeholder="Ingrese la base">
+                <label for="altura">Altura:</label>
+                <input type="number" id="altura" name="altura" placeholder="Ingrese la altura">
+            </div>
+            <div id="triangulo" style="display:none;">
+                <label for="base_tri">Base:</label>
+                <input type="number" id="base_tri" name="base_tri" placeholder="Ingrese la base">
+                <label for="altura_tri">Altura:</label>
+                <input type="number" id="altura_tri" name="altura_tri" placeholder="Ingrese la altura">
+            </div>
+            <input type="submit" value="Calcular">
+        </form>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>
